@@ -1008,6 +1008,25 @@ section {
   color: #fff;
 }
 
+.pricing .btn-first {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #67c700;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #67c700;
+}
+
+.pricing .btn-first:hover {
+  background: #67c700;
+  color: #fff;
+}
+
 .pricing .featured {
   width: 200px;
   position: absolute;
