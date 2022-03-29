@@ -91,6 +91,11 @@ section {
   font-weight: 500;
 }
 
+.breadcrumbs h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
