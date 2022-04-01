@@ -1051,6 +1051,25 @@ section {
   color: #fff;
 }
 
+.pricing .btn-third {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #07d5c0;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #07d5c0;
+}
+
+.pricing .btn-third:hover {
+  background: #07d5c0;
+  color: #fff;
+}
+
 .pricing .featured {
   width: 200px;
   position: absolute;
@@ -1345,6 +1364,30 @@ section {
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
+}
+
+.portfolio-details .btn-buy:hover {
+  background: #4154f1;
+  color: #fff;
+}
+
+.portfolio-details .btn-third {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #07d5c0;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #07d5c0;
+}
+
+.portfolio-details .btn-third:hover {
+  background: #07d5c0;
+  color: #fff;
 }
 
 .portfolio-details .btn-first {
