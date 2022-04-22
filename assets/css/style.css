@@ -1070,6 +1070,44 @@ section {
   color: #fff;
 }
 
+.pricing .btn-physics {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #508BC3;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #508BC3;
+}
+
+.pricing .btn-physics:hover {
+  background: #508BC3;
+  color: #fff;
+}
+
+.pricing .btn-biology {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #802185;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #802185;
+}
+
+.pricing .btn-biology:hover {
+  background: #802185;
+  color: #fff;
+}
+
 .pricing .btn-four {
   display: inline-block;
   padding: 8px 40px 10px 40px;
