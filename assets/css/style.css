@@ -1108,6 +1108,25 @@ section {
   color: #fff;
 }
 
+.pricing .btn-geography {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #457B35;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #457B35;
+}
+
+.pricing .btn-geography:hover {
+  background: #457B35;
+  color: #fff;
+}
+
 .pricing .btn-four {
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -1464,6 +1483,43 @@ section {
 
 .portfolio-details .btn-second:hover {
   background: #ff901c;
+  color: #fff;
+}
+
+.portfolio-details .btn-geography {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #457B35;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #457B35;
+}
+
+.portfolio-details .btn-geography:hover {
+  background: #457B35;
+  color: #fff;
+}
+.portfolio-details .btn-biology {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #802185;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #802185;
+}
+
+.portfolio-details .btn-biology:hover {
+  background: #802185;
   color: #fff;
 }
 
