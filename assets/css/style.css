@@ -542,6 +542,39 @@ section {
   text-transform: uppercase;
 }
 
+.about .content .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.about .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .price span {
+  color: hsl(0, 0%, 52%);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* .about .btn-bundle-sample {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #67c700;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #67c700;
+} */
+
 .about h2 {
   font-size: 24px;
   font-weight: 700;
