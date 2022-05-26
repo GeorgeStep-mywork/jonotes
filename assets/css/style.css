@@ -682,6 +682,53 @@ section {
   font-size: 14px;
 }
 
+
+/*--------------------------------------------------------------
+# Select Class
+--------------------------------------------------------------*/
+.sclass {
+  padding: 70px 0 60px;
+}
+
+.sclass .count-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.sclass .count-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #4154f1;
+}
+
+.sclass .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #0b198f;
+}
+
+.sclass .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+
+.sclass .count-box a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
