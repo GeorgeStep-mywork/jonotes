@@ -729,6 +729,192 @@ section {
   padding: 8px;
 }
 
+
+/*--------------------------------------------------------------
+# Select Class
+--------------------------------------------------------------*/
+.selectclass .feature-box {
+  padding: 1px 20px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.selectclass .feature-box h3 {
+  font-size: 18px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+}
+
+.selectclass .feature-box i {
+  line-height: 0;
+  background: #ecf3ff;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.selectclass .feature-box:hover i {
+  background: #4154f1;
+  color: #fff;
+}
+
+.selectclass .feture-tabs {
+  margin-top: 2px;
+}
+
+.selectclass .feture-tabs h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .selectclass .feture-tabs h3 {
+    font-size: 28px;
+  }
+}
+
+.selectclass .feture-tabs .nav-pills {
+  border-bottom: 1px solid #eee;
+}
+
+.selectclass .feture-tabs .nav-link {
+  background: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #012970;
+  padding: 12px 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+
+.selectclass .feture-tabs .nav-link.active {
+  color: #4154f1;
+  border-bottom: 3px solid #4154f1;
+}
+
+.selectclass .feture-tabs .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: #012970;
+}
+
+.selectclass .feture-tabs .tab-content i {
+  font-size: 24px;
+  line-height: 0;
+  margin-right: 8px;
+  color: #4154f1;
+}
+
+.selectclass .feature-icons {
+  margin-top: 120px;
+}
+
+.selectclass .feature-icons h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .selectclass .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.selectclass .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.selectclass .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+
+.selectclass .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: #0245bc;
+  margin-right: 15px;
+}
+
+.selectclass .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+
+/*--------------------------------------------------------------
+# Tips
+--------------------------------------------------------------*/
+.ptips {
+  background: #F2F5FC;
+  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+
+.ptips .ptips-newsletter {
+  padding: 50px 0;
+  background: #F2F5FC;
+  border-top: 3px solid #F8FAFE;
+}
+
+.ptips .ptips-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #012970;
+}
+
+.ptips .ptips-newsletter form {
+  margin-top: 20px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #e1ecff;
+}
+
+.ptips .ptips-newsletter form input[type="email"] {
+  border: 0;
+  padding: 8px;
+  width: calc(100% - 140px);
+}
+
+.ptips .ptips-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 30px;
+  margin: 3px;
+  background: #4154f1;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.ptips .ptips-newsletter form input[type="submit"]:hover {
+  background: #5969f3;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
