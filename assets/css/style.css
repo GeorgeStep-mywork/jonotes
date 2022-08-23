@@ -1279,7 +1279,7 @@ section {
   color: #fff;
 }
 
-.pricing .btn-first {
+.pricing .btn-chemistry {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1293,12 +1293,12 @@ section {
   border: 1px solid #67c700;
 }
 
-.pricing .btn-first:hover {
+.pricing .btn-chemistry:hover {
   background: #67c700;
   color: #fff;
 }
 
-.pricing .btn-second {
+.pricing .btn-history {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1312,7 +1312,7 @@ section {
   border: 1px solid #ff901c;
 }
 
-.pricing .btn-second:hover {
+.pricing .btn-history:hover {
   background: #ff901c;
   color: #fff;
 }
@@ -1355,6 +1355,25 @@ section {
   color: #fff;
 }
 
+.pricing .btn-civics {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #ECBD66;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #ECBD66;
+}
+
+.pricing .btn-civics:hover {
+  background: #ECBD66;
+  color: #fff;
+}
+
 .pricing .btn-biology {
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -1393,7 +1412,7 @@ section {
   color: #fff;
 }
 
-.pricing .btn-four {
+.pricing .btn-maths {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1407,7 +1426,7 @@ section {
   border: 1px solid #FD0D73;
 }
 
-.pricing .btn-four:hover {
+.pricing .btn-maths:hover {
   background: #FD0D73;
   color: #fff;
 }
@@ -1750,7 +1769,7 @@ section {
   color: #fff;
 }
 
-.portfolio-details .btn-first {
+.portfolio-details .btn-chemistry {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1765,7 +1784,7 @@ section {
 }
 
 
-.portfolio-details .btn-first:hover {
+.portfolio-details .btn-chemistry:hover {
   background: #67c700;
   color: #fff;
 }
@@ -1845,7 +1864,7 @@ section {
   color: #fff;
 }
 
-.portfolio-details .btn-four {
+.portfolio-details .btn-maths {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1859,7 +1878,7 @@ section {
   border: 1px solid #FD0D73;
 }
 
-.portfolio-details .btn-four:hover {
+.portfolio-details .btn-maths:hover {
   background: #FD0D73;
   color: #fff;
 }
