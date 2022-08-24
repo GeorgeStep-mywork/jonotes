@@ -796,8 +796,8 @@
                 <li>Non-Aligned Movement</li> -->
                 <!-- <li class="na">Printable</li> -->
               </ul>
-              <a href="https://www.finenotes.in/assets/docs/Userdefined_Methods_Fine_Notes.pdf" class="btn-third" target="blank">Sample</a> <br><br>
-              <a href="https://rzp.io/l/icsecomputer" class="btn-computer" target="blank">Buy Now</a>
+              <a href="https://www.finenotes.in/assets/docs/Userdefined_Methods_Fine_Notes.pdf" class="btn-computer" target="blank">Sample</a> <br><br>
+              <a href="https://rzp.io/l/icsecomputer" class="btn-buy" target="blank">Buy Now</a>
             </div>
           </div>
 
@@ -1111,7 +1111,7 @@
                 <li>Non-Aligned Movement</li> -->
                 <!-- <li class="na">Printable</li> -->
               </ul>
-              <a href="https://www.finenotes.in/assets/docs/Computer_Study_Tool_Sample.pdf" class="btn-third" target="blank">Sample</a> <br><br>
+              <a href="https://www.finenotes.in/assets/docs/Computer_Study_Tool_Sample.pdf" class="btn-computer" target="blank">Sample</a> <br><br>
               <a href="https://rzp.io/l/icsecomputerstudytool" class="btn-buy" target="blank">Buy Now</a>
             </div>
           </div>
@@ -1216,7 +1216,7 @@
                 <li>Non-Aligned Movement</li> -->
                 <!-- <li class="na">Printable</li> -->
               <!-- </ul>
-              <a href="https://www.finenotes.in/assets/docs/Userdefined_Methods_Fine_Notes.pdf" class="btn-third" target="blank">Sample</a> <br><br>
+              <a href="https://www.finenotes.in/assets/docs/Userdefined_Methods_Fine_Notes.pdf" class="btn-computer" target="blank">Sample</a> <br><br>
               <a href="https://rzp.io/l/icsecomputer" class="btn-buy" target="blank">Buy Now</a>
             </div>
           </div> -->
@@ -1936,49 +1936,32 @@
           <div class="col-lg-6">
               <form  action="https://www.SnapHost.com/captcha/send.aspx" method="post" class="php-email-form" id="NewsletterSubscriptionForm" onsubmit="return ValidateForm(this);" target="_top">
 
-              <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="finenotesteam@gmail.com" />
-              <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="X66XJQX86EJG" />
+              <input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="mailtogeorgest@gmail.com" />
+              <input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="H4RRB3F5ENWG" />
               <input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://theweeklywrapblog.com/about.html" />
               <input id="skip_Subject" name="skip_Subject" type="hidden" value="Fine Notes Contact Us Form" />
               <input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
-              <input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" />
-              <script type="text/javascript">
-                function ValidateForm(frm) {
-                if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
-                if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
-                if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
-                if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
-                if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
-                return true; }
-                function ReloadCaptchaImage(captchaImageId) {
-                var obj = document.getElementById(captchaImageId);
-                var src = '' + obj.src;
-                obj.src = '';
-                var date = new Date();
-                var pos = src.indexOf('&rad=');
-                if (pos >= 0) { src = src.substr(0, pos); }
-                obj.src = src + '&rad=' + date.getTime();
-                return false; }
-                </script>
+              <!-- <input id="skip_SendCopyToUser" name="skip_SendCopyToUser" type="hidden" value="1" /> -->
+              <script src="sub.js"></script>
               <div class="row gy-4">
                 <div class="col-md-6">
+                  <label for="name"></label>
                   <input type="text" id="inputUsername" name="Name" class="form-control" placeholder="Your Name" required>
-                  <label for="inputUsername"></label>
                 </div>
 
                 <div class="col-md-6 ">
+                  <label for="email"></label>
                   <input type="email" id="inputEmail" class="form-control" name="Email" placeholder="Your Email" required>
-                  <label for="inputEmail"></label>
                 </div>
 
                 <div class="col-md-12">
+                  <label for="subject"></label>
                   <input type="text" id="inputSubject" class="form-control" name="Subject" placeholder="Subject" required>
-                  <label for="inputEmail"></label>
                 </div>
 
                 <div class="col-md-12">
+                  <label for="message"></label>
                   <textarea class="form-control" name="Message" rows="6" placeholder="Message" data-validation-required-message="Please enter a message." required id="message"></textarea>
-                  <label for="inputEmail"></label>
                 </div>
               </div>
 

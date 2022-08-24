@@ -1317,7 +1317,7 @@ section {
   color: #fff;
 }
 
-.pricing .btn-third {
+.pricing .btn-computer {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1331,7 +1331,7 @@ section {
   border: 1px solid #07d5c0;
 }
 
-.pricing .btn-third:hover {
+.pricing .btn-computer:hover {
   background: #07d5c0;
   color: #fff;
 }
@@ -1845,7 +1845,7 @@ section {
   color: #fff;
 }
 
-.portfolio-details .btn-third {
+.portfolio-details .btn-computer {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1859,7 +1859,7 @@ section {
   border: 1px solid #07d5c0;
 }
 
-.portfolio-details .btn-third:hover {
+.portfolio-details .btn-computer:hover {
   background: #07d5c0;
   color: #fff;
 }
