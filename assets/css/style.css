@@ -1298,6 +1298,25 @@ section {
   color: #fff;
 }
 
+.pricing .btn-english {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #7e6d68;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #7e6d68;
+}
+
+.pricing .btn-english:hover {
+  background: #7e6d68;
+  color: #fff;
+}
+
 .pricing .btn-history {
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -1786,6 +1805,26 @@ section {
 
 .portfolio-details .btn-chemistry:hover {
   background: #67c700;
+  color: #fff;
+}
+
+.portfolio-details .btn-english {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #7e6d68;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #7e6d68;
+}
+
+
+.portfolio-details .btn-english:hover {
+  background: #7e6d68;
   color: #fff;
 }
 
