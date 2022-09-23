@@ -524,6 +524,22 @@ section {
   }
 }
 
+/* Added for lap and mobile differences*/
+
+.lapShow {display: none;}
+
+  /* Laptop Portrait and Landscape */
+  @media only screen and (min-device-width : 1247px){ 
+      .lapShow {display: inline;}
+  }
+
+  .mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen and (max-device-width : 1246px){ 
+      .mobileShow {display: inline;}
+  }
+
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
